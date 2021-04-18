@@ -1,4 +1,4 @@
-# start-js
+# JS homeworks
 JS homeworks of the first level study of Frontend Development
 
 Every file has homework description on the top. 
