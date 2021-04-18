@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="style13.css" rel="stylesheet" type="text/css" />
+	<title>Document</title>
+</head>
+<body>
+	<div class="select">
+
+		<select name="" onchange="startSelect()" class="select-department">
+			<option value="" disabled selected>Choose departments</option>
+			<option value="devDeptHead">Departments Developers</option>
+			<option value="qaDeptHead">Departments Testers</option>
+		</select>
+		<select disabled name="" id="" class="select-currency" onchange="startChangeCurrencySalary(this.value)">
+			<option class="main" disabled selected>Choose salary currency</option>
+			<option value="1">BYN</option>
+			<option value="145">US</option>
+			<option value="23">CAD</option>
+
+		</select>
+		<button onclick="cleanTable()">Clear List</button>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
